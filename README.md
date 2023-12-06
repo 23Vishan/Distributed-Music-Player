@@ -15,6 +15,10 @@ Open KafkaServerV1.1 and Enter the Following Commands
 Main screen will be initally empty. Once data containing album image, artist name, audio length, etc, arrives the screen will update. Approx 5-10 seconds. Kafka consumer must stay continuously running in terminal.
 <br>
 ![](https://github.com/23Vishan/Distributed-Music-Player/blob/main/Screenshots/User_Interface.png)
+## Confluent Cloud
+Cloud-native service for data streaming using Apache Kafka. The api key and password required are hardcoded in to MusicConsumer.java and MusicProducer.java
+![](https://github.com/23Vishan/Distributed-Music-Player/blob/main/Screenshots/Cloud.png)
+<br>
 ## Group 8
 - Vishan Patel - 100784201
 - Eria Hua - 100777617
