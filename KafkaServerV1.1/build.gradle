@@ -1,0 +1,37 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation("org.slf4j:slf4j-api:1.7.5")
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+
+    // confluent cluster
+    implementation group: 'org.slf4j', name: 'slf4j-nop', version: '2.0.3'
+    implementation group: 'org.apache.kafka', name: 'kafka-clients', version: '3.3.1'
+
+    implementation 'org.json:json:20210307'
+}
+
+task runMusicProducer(type: JavaExec) {
+    main = 'org.example.MusicProducer'
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+task runMusicConsumer(type: JavaExec) {
+    main = 'org.example.MusicConsumer'
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+test {
+    useJUnitPlatform()
+}
