@@ -1,5 +1,5 @@
 # Distributed Music Player
-## Distributed Systems - Final Project
+Distributed Systems - Final Project
 ## How To Run
 Open ProjectAppV2 in Android Studios.
 Open KafkaServerV1.1 and Enter the Following Commands
