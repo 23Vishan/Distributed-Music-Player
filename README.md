@@ -11,6 +11,8 @@ Open KafkaServerV1.1 and Enter the Following Commands
 # To Run Kafka Consumer
 ./gradlew runMusicConsumer
 ```
+## Question 1
+![](https://github.com/23Vishan/Distributed-Music-Player/blob/main/Screenshots/User_Interface.png)
 ## Group 8
 - Vishan Patel - 100784201
 - Eria Hua - 100777617
