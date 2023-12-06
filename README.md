@@ -11,8 +11,8 @@ Open KafkaServerV1.1 and Enter the Following Commands
 # To Run Kafka Consumer
 ./gradlew runMusicConsumer
 ```
-## Question 1
-Main screen will be initally empty. Once data containing album image, artist name, audio length, etc, arrives the screen will update. Approx 5-10 seconds.
+## Expected Output
+Main screen will be initally empty. Once data containing album image, artist name, audio length, etc, arrives the screen will update. Approx 5-10 seconds. Kafka consumer should stay continuously running in terminal.
 <br>
 ![](https://github.com/23Vishan/Distributed-Music-Player/blob/main/Screenshots/User_Interface.png)
 ## Group 8
